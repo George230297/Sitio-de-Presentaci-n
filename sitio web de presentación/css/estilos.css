@@ -1,52 +1,60 @@
-h1{
-    color:rgb(255, 255, 255);
+h1 {
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 50px;
     font-style: oblique;
+    white-space: normal;
 }
 
-h2{
+h2 {
     color: white;
     text-align: center;
     font-style: oblique;
+    white-space: normal;
 }
 
-p{
+p {
     text-align: center;
     font-family: "share tech";
     font-size: 30px;
     font-style: oblique;
+    white-space: normal;
 }
 
-img{
+img {
     display: inline-block;
     padding: 5px;
     text-align: center;
 }
 
-a{
+a {
     overflow: hidden;
     text-align: center;
     padding: 20px;
     margin: 20px;
+    white-space: normal;
 }
 
-body{
-    background: linear-gradient(#0099ff,#6699ff, #3399ff, #3366ff, #0066cc);
+body {
+    background: linear-gradient(#0099ff, #6699ff, #3399ff, #3366ff, #0066cc);
+    white-space: normal;
 }
 
-.contenedor1{
-    color:rgb(255, 255, 255);
+.contenedor1 {
+    width: 50%;
+    color: rgb(255, 255, 255);
     margin: 10px 450px;
     text-align: center;
     border: 4px double white;
     border-radius: 10px;
     border-width: thick;
-    background: linear-gradient(#0099ff#66cccc, #00ffff, #3399ff)
+    background: linear-gradient(#0099ff#66cccc, #00ffff, #3399ff);
+    white-space: normal;
 }
 
-.contenedor1b{
-    color:rgb(255, 255, 255);
+.contenedor1b {
+    width: 50%;
+    color: rgb(255, 255, 255);
     margin: 10px 450px;
     text-align: center;
     border: 4px double white;
@@ -55,34 +63,40 @@ body{
     background: linear-gradient(#3399ff, #6699ff);
     font-size: 20px;
     font-style: oblique;
+    white-space: normal;
 }
 
-.contenedor1b ul li{
+.contenedor1b ul li {
     font-size: 25px;
     font-style: oblique;
     margin-right: 30px;
     list-style-type: none;
+    white-space: normal;
 }
 
-.contenedor2{
-    color:rgb(255, 255, 255);
+.contenedor2 {
+    width: 50%;
+    color: rgb(255, 255, 255);
     margin: 10px 450px;
     text-align: center;
     border: 4px double white;
     border-radius: 10px;
     border-width: thick;
     background: linear-gradient(#3399ff, #6699ff);
+    white-space: normal;
 }
 
-.contenedor2 ul li{
+.contenedor2 ul li {
     font-size: 25px;
     font-style: oblique;
     list-style-type: none;
     margin-right: 30px;
     padding: 10px;
+    white-space: normal;
 }
 
-.contenedor3{
+.contenedor3 {
+    width: 50%;
     color: rgb(255, 255, 255);
     margin: 10px 450px;
     border: 4px double;
@@ -91,87 +105,98 @@ body{
     border-radius: 10px;
     text-align: center;
     background: linear-gradient(#0099ff, #3399cc);
+    white-space: normal;
 }
 
-.contenedor4{
+.contenedor4 {
     margin: 10px;
     display: inline-block;
     font-size: 20px;
     background: linear-gradient(#0099ff, #9999ff, #3399cc);
+    white-space: normal;
 }
 
-input, textarea{
+input,
+textarea {
     background: radial-gradient(lavender, lightcyan);
-    border: 2px solid blue;
+    border: 2px solid whitesmoke;
     font-size: 20px;
     margin: 10px;
     border-radius: 10px;
     font-family: sans-serif;
     font-style: oblique;
     color: rgb(54, 48, 48);
+    white-space: normal;
 }
 
-label{
+label {
     font-size: 25px;
     color: azure;
     font-style: oblique;
 }
 
-.p1{
+.p1 {
     color: azure;
     margin: 25px;
     font-size: 30px;
+    text-align: justify;
+    white-space: normal;
 }
 
-.p2, .p2a,.p3, .p4{
-   color: white;
-   font-size: 35px;
+.p2,
+.p2a,
+.p3,
+.p4 {
+    color: white;
+    font-size: 35px;
+    line-height: 1.5;
+    white-space: normal;
 }
 
-legend{
+legend {
     font-size: 35px;
     font-style: oblique;
+    white-space: normal;
 }
 
-fieldset{
+fieldset {
+    width: 50%;
     border: 4px double white;
     border-radius: 10px;
 }
 
-.img1{
-    margin-right: 20px;
+.img5 {
+    margin-left: 10px;
+    white-space: normal;
 }
 
-.img2{
-    margin-right: 20px;
+.img6 {
+    margin-left: 15px;
+    white-space: normal;
 }
 
-.img3{
-    padding-bottom: 10px;
-    border-radius: 5px;
-    margin-right: 20px;
+.img9 {
+    margin-right: 5px;
+    white-space: normal;
 }
 
-.img4{
-    margin-right: 20px;
+.img10 {
+    margin-right: 5px;
+    white-space: normal;
 }
 
-.img5{
-    margin-left: 5px;
+.img11 {
+    margin-right: 5px;
+    white-space: normal;
 }
 
-.img6{
-    padding-bottom: 15px;
-    margin-left: 30px;
+.img12 {
+    margin-right: 15px;
+    white-space: normal;
+}
+
+.img13 {
+    margin-bottom: 10px;
     margin-right: 10px;
-}
-
-.img7{
-    padding-bottom: 10px;
-    margin-left: 5px;
-}
-
-.img8{
-    padding-top: 20px;
-    margin-right: 10px;
+    white-space: normal;
 }
